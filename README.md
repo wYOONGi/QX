@@ -2,31 +2,31 @@
 :warning:共两个远程重写脚本，[获取cookie]和[获取body]，有冲突，使用时请禁用其一，注意看教程说明！
 
 --------
-1⃣第一步：添加远程重写订阅
+第一步：添加远程重写订阅
 
 编辑配置文件，在[rewrite_remote]下粘贴以下代码：
 
-# 中青cookie获取
+中青cookie获取
 https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult X/Youth/Youth_cookie.conf, tag=中青cookie获取, update-interval=86400, opt-parser=false, enabled=true
 
-# 中青body获取
+中青body获取
 https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult X/Youth/Youth_Read.conf, tag=中青body获取, update-interval=86400, opt-parser=false, enabled=true
 ----------
 
-2⃣第二步：添加定时任务
+第二步：添加定时任务
 编辑配置文件，在[task_local]下粘贴以下代码：
 
-# 中青签到&转盘宝箱
+中青签到&转盘宝箱
 */10 5-23 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag= 中青签到&转盘宝箱, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true
 
-# 中青自动阅读
+中青自动阅读
 10 */2 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true
 
-# 中青浏览赚
+中青浏览赚
 20 5 10 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js, tag=中青浏览赚, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true
 ----------
 
-3⃣第三步：食用方法:warning:
+第三步：食用方法:warning:
 
 1：进入[重写]-[引用]
 :white_check_mark: 启用「中青cookie获取」
