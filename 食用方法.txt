@@ -1,5 +1,5 @@
 中青阅读
-:warning:共两个远程重写脚本，[获取cookie]和[获取body]，有冲突，使用时请禁用其一，注意看教程说明！
+共两个远程重写脚本，[获取cookie]和[获取body]，有冲突，使用时请禁用其一，注意看教程说明！
 
 --------
 1⃣第一步：添加远程重写订阅
@@ -29,8 +29,8 @@ https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult X/Youth/You
 3⃣第三步：食用方法:warning:
 
 1：进入[重写]-[引用]
-:white_check_mark: 启用「中青cookie获取」
-:u7981: 禁用「中青阅读Body获取」
+启用「中青cookie获取」
+禁用「中青阅读Body获取」
 
 a：进入app-我的-任务中心
 提示：获取cookie成功
@@ -48,8 +48,8 @@ d：继续阅读另一篇文章或视频
 看签到是不是正常
 
 2：进入[重写]-[引用]
-:u7981: 禁用「中青cookie获取」
-:white_check_mark: 启用「中青阅读Body获取」
+禁用「中青cookie获取」
+启用「中青阅读Body获取」
 
 阅读文章或视频，快速获取body
 提示：获取第1个阅读请求成功
